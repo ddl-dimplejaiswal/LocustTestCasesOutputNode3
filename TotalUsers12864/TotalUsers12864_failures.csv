@@ -1,0 +1,7 @@
+"Method","Name","Error","Occurrences"
+"POST","/compareResult.html?stock1=American&stock2=Adobe&type=Table&date_from=2015-02-02&date_to=2020-02-20","500 Server Error: Internal Server Error for url: http://127.0.0.1:7000/compareResult.html?stock1=American&stock2=Adobe&type=Table&date_from=2015-02-02&date_to=2020-02-20",1
+"POST","/","500 Server Error: Internal Server Error for url: http://127.0.0.1:7000/",36
+"POST","/compareResult.html?stock1=American&stock2=Adobe&type=Candle&date_from=2015-02-02&date_to=2020-02-20","500 Server Error: Internal Server Error for url: http://127.0.0.1:7000/compareResult.html?stock1=American&stock2=Adobe&type=Candle&date_from=2015-02-02&date_to=2020-02-20",1
+"POST","/","400 Client Error: Bad Request for url: http://127.0.0.1:7000/",16
+"POST","/predictionResult.html","500 Server Error: Internal Server Error for url: http://127.0.0.1:7000/predictionResult.html",1
+"POST","/measureResults.html","500 Server Error: Internal Server Error for url: http://127.0.0.1:7000/measureResults.html",1

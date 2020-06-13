@@ -1,0 +1,28 @@
+"Method","Name","Error","Occurrences"
+"POST","/compareResult.html?stock1=American&stock2=Adobe&type=Candle&date_from=2015-02-02&date_to=2020-02-20","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",2
+"GET","/prediction.html","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",3
+"GET","/movers.html","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",9
+"GET","/measure.html","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",13
+"GET","/movers.html","HTTPConnectionPool(host='127.0.0.1', port=7000): Max retries exceeded with url: /movers.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc696503ed0>: Failed to establish a new connection: [Errno 111] Connection refused'))",26
+"GET","/analysis.html","HTTPConnectionPool(host='127.0.0.1', port=7000): Max retries exceeded with url: /analysis.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6964e0cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))",11
+"GET","/measure.html","500 Server Error: Internal Server Error for url: http://127.0.0.1:7000/measure.html",1
+"GET","/","HTTPConnectionPool(host='127.0.0.1', port=7000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc696561590>: Failed to establish a new connection: [Errno 111] Connection refused'))",70
+"GET","/measure.html","HTTPConnectionPool(host='127.0.0.1', port=7000): Max retries exceeded with url: /measure.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6964bdb50>: Failed to establish a new connection: [Errno 111] Connection refused'))",47
+"POST","/","500 Server Error: Internal Server Error for url: http://127.0.0.1:7000/",2
+"GET","/analysis.html","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",5
+"GET","/compare.html","HTTPConnectionPool(host='127.0.0.1', port=7000): Max retries exceeded with url: /compare.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6962b0f90>: Failed to establish a new connection: [Errno 111] Connection refused'))",30
+"GET","/","500 Server Error: Internal Server Error for url: http://127.0.0.1:7000/",1
+"GET","/","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",39
+"GET","/compare.html","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",7
+"GET","/","('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",11
+"GET","/prediction.html","HTTPConnectionPool(host='127.0.0.1', port=7000): Max retries exceeded with url: /prediction.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc69635ac90>: Failed to establish a new connection: [Errno 111] Connection refused'))",15
+"POST","/compareResult.html?stock1=American&stock2=Adobe&type=Line&date_from=2015-02-02&date_to=2020-02-20","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",3
+"POST","/compareResult.html?stock1=American&stock2=Adobe&type=Table&date_from=2015-02-02&date_to=2020-02-20","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",1
+"POST","/analysisResult.html?stock=Apple&type=Line&date_from=2015-11-03&date_to=2020-02-20","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",3
+"POST","/predictionResult.html","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",5
+"POST","/","('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",1
+"POST","/analysisResult.html?stock=Apple&type=Candle&date_from=2015-11-03&date_to=2020-02-20","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",3
+"POST","/moversResult.html","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",12
+"POST","/analysisResult.html?stock=Apple&type=Table&date_from=2015-11-03&date_to=2020-02-20","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",1
+"POST","/","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",58
+"POST","/measureResults.html","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",8

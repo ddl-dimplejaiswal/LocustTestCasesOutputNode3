@@ -1,0 +1,2 @@
+"Method","Name","Error","Occurrences"
+"GET","/","HTTPConnectionPool(host='127.0.0.1', port=7000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc84e8bdd0>: Failed to establish a new connection: [Errno 111] Connection refused'))",256
